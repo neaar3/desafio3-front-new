@@ -1,0 +1,164 @@
+body {
+  background: rgb(236, 235, 220);
+  margin: 0 auto;
+}
+* {
+  box-sizing: border-box;
+  font-family: "Sora", sans-serif;
+}
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  background: #2b7148;
+  font-size: 0.9em;
+}
+.header .brasileirao {
+  font-size: 2.5em;
+  font-weight: bold;
+  padding: 0.5em 0em 0.5em;
+}
+.header .item-span {
+  padding: 0.5em 0em 0.5em;
+  margin-right: 1em;
+}
+
+.header-login {
+  display: flex;
+  flex-direction: row;
+  margin-left: 32em;
+  min-width: 600px;
+}
+.header input {
+  border-radius: 4px;
+  border: none;
+  min-height: 1.85em;
+  background: white;
+  color: black;
+  padding: 5px 0.5em;
+  width: 13em;
+}
+.header label {
+  margin: 0em 0.5em 0em 1.25em;
+}
+.header .in {
+  margin-left: 35em;
+}
+.header .out {
+  margin-left: 1.25em;
+}
+.header button {
+  background: #04375c;
+  color: white;
+  padding: 0.45em 1.75em;
+  border-radius: 5px;
+  border: 0;
+  font-weight: bold;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+}
+.left {
+  display: flex;
+  flex-direction: column;
+  align-items: space-between;
+  min-width: 25em;
+  margin: 2em 3.25em 0em 2em;
+}
+.left-header {
+  margin: none;
+  display: flex;
+  justify-content: space-between;
+  background: rgb(138, 185, 157);
+  padding: 0.8em 0.2em 0.8em;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+.left table {
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+}
+.left-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: white;
+  font-size: 1em;
+}
+.left tr {
+  display: table-row;
+}
+.left table td {
+  padding: 0.25em 0.2em;
+}
+.time-casa {
+  text-align: right;
+}
+
+.time-visitante {
+  text-align: left;
+}
+
+.left-item td {
+  line-height: 1.5;
+}
+.left .goal {
+  font-size: 1.5em;
+  width: 2.666ch;
+  height: 2em;
+  text-align: center;
+}
+.brasao-casa img,
+.brasao-visitante img,
+.brasao {
+  width: 20px;
+  height: 20px;
+}
+.brasao {
+  margin-right: 0.5em;
+}
+.edicao {
+  display: flex;
+  background: rgb(138, 185, 157);
+  border-radius: 50%;
+  justify-self: center;
+  align-self: center;
+}
+.right {
+  margin: 2em 1.5em 0em 2em;
+  background: white;
+  padding-right: 0em;
+  max-width: 850px;
+}
+.right th {
+  text-align: start;
+  padding: 0.25em 0.75em;
+  font-size: 1.15em;
+  background: rgb(138, 185, 157);
+}
+.right td {
+  padding: 0.25em 0.5em 0.5em;
+  text-align: center;
+  line-height: 1.2;
+}
+.time-classificacao {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+}
+.posicao-classificacao {
+  padding-left: 5em;
+}
+table {
+  border-spacing: 0px;
+}
+.new-input {
+  width: 30px;
+  text-align: center;
+}
